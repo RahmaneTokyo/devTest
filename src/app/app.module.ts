@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListUsersComponent } from './users/list-users/list-users.component';
 import { TodoListComponent } from './users/todo-list/todo-list.component';
+import { ReservoirComponent } from './reservoir/reservoir.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListUsersComponent,
-    TodoListComponent
+    TodoListComponent,
+    ReservoirComponent
   ],
   imports: [
     BrowserModule,
